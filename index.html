@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Description of this web site">
+	  	<meta name="author" content="Your Name Here">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Olivia Tucker Shipping Dashboard</title>
+
+		<!-- Bootstrap v5.0.0-beta1 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link href="css/custom.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+<body>
+<div class="page-wrapper chiller-theme toggled">
+  <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand">
+        <a href="#">Shipping Dashboard</a>
+        <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="sidebar-header">
+        <div class="user-pic">
+          <img class="img-responsive img-rounded" src="images/adminpic.jpeg" width="20px" height="20px"
+            alt="User picture">
+        </div>
+        <div class="user-info">
+          <span class="user-name"><strong>Olivia</strong>
+            <strong>Tucker</strong>
+          </span>
+          <span class="user-role">Administrator</span>
+          <span class="user-status">
+            <i class="fa fa-circle"></i>
+            <span>Online</span>
+          </span>
+        </div>
+      </div>
+      <!-- sidebar-header  -->
+      <div class="sidebar-search">
+        <div>
+          <div class="input-group">
+            <input type="text" class="form-control search-menu" placeholder="Search">
+            <div class="input-group-append">
+              <span class="input-group-text">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar-search  -->
+      <div class="sidebar-menu">
+        <ul>
+          <li class="header-menu">
+            <span>General</span>
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="index.html">
+              <i class="fa fa-tachometer-alt"></i>
+              <span>Dashboard</span>
+              <span class="badge badge-pill badge-warning">Current</span>
+            </a>
+            
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-shopping-cart"></i>
+              <span>E-commerce</span>
+              <span class="badge badge-pill badge-danger">3</span>
+            </a>
+            <div class="sidebar-submenu">
+              <ul>
+                <li>
+                  <a href="#">Products
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Orders</a>
+                </li>
+                <li>
+                  <a href="#">Credit cart</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+         
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-chart-line"></i>
+              <span>Charts</span>
+            </a>
+            </li>
+           
+          <li class="sidebar-dropdown">
+            <a href="#">
+              <i class="fa fa-globe"></i>
+              <span>Maps</span>
+            </a>
+           
+          </li>
+          <li class="header-menu">
+            <span>Other</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-book"></i>
+              <span>Documentation</span>
+              <span class="badge badge-pill badge-primary">Download CSV File</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-calendar"></i>
+              <span>Calendar</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-folder"></i>
+              <span>Examples</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar-menu  -->
+    </div>
+    <!-- sidebar-content  -->
+  </nav>
+  <!-- sidebar-wrapper  -->
+  <main class="page-content">
+    <div class="container-fluid">
+      <h2>Data Tracking Dashboard</h2>
+      <hr>
+        <br>
+      <div class="row">
+        <div class="form-group col-md-12">
+          <p>This data reflects the status of delivered and undelivered orders. </p>
+        </div>
+        <div class="form-group col-md-12">
+        </div>
+      </div>
+      <h5>Open Processing Sketches</h5>
+        <br>
+      <hr>
+    <!--the beginning of dashboard-->
+       <div class="row mb-3">
+          <div class="col-xl-3 col-lg-6">
+            <div class="card card-inverse card-success">
+              <div class="card-block bg-success">
+                <div class="rotate">
+                  <i class="fa fa-user fa-5x"></i>
+                </div>
+                <h6 class="text-uppercase">Customers</h6>
+                <h1 class="display-1">20</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6">
+            <div class="card card-inverse card-danger">
+              <div class="card-block bg-danger">
+                <div class="rotate">
+                  <i class="fa fa-list fa-4x"></i>
+                </div>
+                <h6 class="text-uppercase">Posts</h6>
+                <h1 class="display-1">87</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6">
+            <div class="card card-inverse card-info">
+              <div class="card-block bg-info">
+                <div class="rotate">
+                  <i class="fa fa-twitter fa-5x"></i>
+                </div>
+                <h6 class="text-uppercase">Tweets</h6>
+                <h1 class="display-1">125</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6">
+            <div class="card card-inverse card-warning">
+              <div class="card-block bg-warning">
+                <div class="rotate">
+                  <i class="fa fa-share fa-5x"></i>
+                </div>
+                <h6 class="text-uppercase" >Shares</h6>
+                <h1 class="display-1">36</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/row-->
+<br>
+    
+       <!--trying to make 2 columns-->
+        <div class="container">
+  <div class="row">
+    <div class="col">
+      <h3>Customer Orders</h3>
+     <div id="sketchdiv"></div>
+            <iframe src="https://www.openprocessing.org/sketch/1088204/embed/?plusEmbedHash=OTUyN2UyNDVlMzRjZjI5ZjA3MzNlOThkOGNjNDkwNDBlMDc0NjFjYmM0Zjc5ZjAwM2Y2OTdmZTRhNmIyYzBhNWY5M2NmYTdlMWYxYzdjZjQ1YmRhMjg0NTIwNGU4YzM5YWViNjliZWJkZTk4M2E5NDNmYzQxYjQ5YmQyNDU1OGZuUVFhVy9Ic0dxZ1E4dnk5WDVPQ3JjS0VSaTNhZytpejRoQkFvK1k3MWI4ZVlwQXp2UnVmcjBBYTVpNk5hdWFvQ00rWlArNW5JY0hZRDlLemRZdkM1UT09&plusEmbedTitle=true" width="400" height="400"></iframe>
+    </div>
+    <div class="col">
+     <h3>Shipping Planner</h3>
+        
+       <div id="sketchdiv"></div>
+            <iframe src="https://www.openprocessing.org/sketch/1103109/embed/?plusEmbedHash=NzRlYmExYWNmNjkwM2EzOWFhOTgxMWZmZWQwNDhkYTUxZWJkMWRjNGJhMTdkYmU1MGRhYmY2ZmUwMTgxZjk0MWQ0NGE5M2NhNjQxZTNkODY3MWQ1NzI3N2FlMzU5ZjRlZWFhZjNiMWQyODA2ZDcxZGM3OWFmNjM3OGFmZTM3ZDAxMlMyK2V2ZG9hRUFlaUlCMmNRRGFKckNQam9MSEtQNlh3ZzIrTmtqQXduREJ4N1R1Mm1mY3dndEw4WVNiV01TazJLdHM4dVcxVm9vZ2hNbzVWcWZGUT09&plusEmbedTitle=true" width="400" height="400"></iframe>
+    </div>
+  </div>
+            <br>
+        
+      <div class="row">
+              <div id="sketchdiv"></div>
+            <iframe src="https://www.openprocessing.org/sketch/1074323/embed/?plusEmbedHash=ODg0OTU2YzE4MzIxMjBlMjY0NTJmMzA0NzEwMTA1N2M2MmQ0YjYzMDM2MGZiMzAzNGZhZjdmOTExYjhhNDU4Mzg5ZGNlNGFkZDU5MmExYzVmMjhhNGE5ZmYyMzcxOTI2YzAzZjYzNDk4ZTk3NDg0NTE1OTk5NWQ3N2YxNzk2YmFNTjJhZ0Y5ei80aUlIYXl5L2owdEUwUEFWczBodVpoa25Gek8rY3FRZllZdlpkRkNQUGNQZTVMVmYwckRLaW9hc2QyM2h4ZmcxYlBaMWNyWUd3RnhkQT09&plusEmbedTitle=true" width="400" height="400"></iframe>
+             
+            </div>
+          </div>
+        </div>
+    
+    
+
+      <hr>
+
+      <footer class="text-center">
+        <div class="mb-2">
+          <small>
+            © 2020 made with <i class="fa fa-heart" style="color:red"></i> by - <a target="_blank" rel="noopener noreferrer" href="https://azouaoui.netlify.com">
+              Olivia Tucker
+            </a>
+          </small>
+        </div>
+        <div>
+          <a href="https://github.com/tuckeror" target="_blank">
+            <img alt="GitHub" src="https://img.shields.io/github/followers/azouaoui-med?label=github&style=social" />
+          </a>
+          <a href="https://twitter.com/azouaoui_med" target="_blank">
+            <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/azouaoui_med?label=twitter&style=social" />
+          </a>
+        </div>
+      </footer>
+    </main>
+      
+    </div>
+
+	</body>
+
+</html>
+        
+
+
+<!--using a hosted version of p5.js-->
+<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+<script src="js/customorders.js"></script>
+
+
+
+
